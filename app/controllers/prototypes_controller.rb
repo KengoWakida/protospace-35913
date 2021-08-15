@@ -41,8 +41,6 @@ class PrototypesController < ApplicationController
       render :edit
     end
     
-
-
   end
 
   def destroy
@@ -61,5 +59,4 @@ class PrototypesController < ApplicationController
       redirect_to action: :index
     end
   end
-
 end
